@@ -1,0 +1,69 @@
+window:
+  decorations: none
+
+# Font configuration (require restart)
+font:
+  normal:
+    #family: FreeMono 
+    family: Source Code Variable
+    style: Normal 
+  bold:
+    family: Source Code Variable
+    style: Bold
+  italic:
+    family: Source Code Variable
+    style: Medium Italic
+  size: 12
+  offset:
+    x: 0 
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+
+# Visual Bell
+bell:
+  animation: Linear
+  #animation: EaseOutCubic
+  color: '0xff0000'
+  duration: 0
+
+# Background opacity
+background_opacity: 0.95
+
+# Colors (Material Theme)
+colors:
+  # Default colors
+  primary:
+    background: '#263238'
+    foreground: '#eeffff'
+
+  cursor:
+    text: '#fafafa'
+    cursor: '#9ca1aa'
+
+  selection:
+    text: '#080808'
+    background: '#b2ceee'
+
+  # Normal colors
+  normal:
+    black:   '#000000'  # Arbitrary
+    red:     '#e53935'
+    green:   '#91b859'
+    yellow:  '#ffb62c'
+    blue:    '#6182b8'
+    magenta: '#ff5370'  # Dark pink of the original material theme
+    cyan:    '#39adb5'
+    white:   '#a0a0a0'  # Arbitrary
+
+  # Bright colors
+  bright:
+    black:   '#4e4e4e'  # Arbitrary
+    red:     '#ff5370'
+    green:   '#c3e88d'
+    yellow:  '#ffcb6b'
+    blue:    '#82aaff'
+    magenta: '#f07178'  # Pink of the original material theme
+    cyan:    '#89ddff'
+    white:   '#ffffff'  # Arbitrary
